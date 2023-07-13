@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+
+}
+h1{
+    font-size: 3.5rem;
+}
+h1,h3{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    font-weight: 400;
+
+}
+.head{
+    background-image: url('./images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+}
+.st-btn:hover, .st-btn{
+    background-color: white;
+    border: none;
+}
+.second-btn{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+.second-btn:hover{
+    background-color: hsl(322, 85%, 73%);
+    border-color: hsl(208, 11%, 55%);
+}
+
+.grow{
+    margin-top: 200px;
+    margin-bottom:200px;
+}
+.frist-div{
+    margin-right: 80px;
+}
+.second-div{
+    margin-left: 80px;
+}
+
+/* box- */
+
+.box{
+    width:700px;
+    height: 250px;
+    background-color: white;
+    border-radius: 1.5rem;
+    z-index: 1;
+    position: relative;
+    top:150px;
+    left: 620px;
+}
+/* footer */
+
+footer{
+    background-color:  hsl(192, 100%, 9%);
+    padding:250px 50px 30px;
+    color:white
+}
+.logo{
+    width:600px;
+}
+path{
+    fill:white;
+}
+
+
+@media (max-width:800px){
+    body{
+        
+    }
+    .head{
+        background-image: url('./images/bg-hero-mobile.svg');
+        border-radius: 0.7rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+       
+    }
+    .grow{
+        width: 320px;
+        border-radius: 0.7rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .box{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left:45px;
+    }
+    footer{
+        padding:0px;
+        padding-top:150px;
+        text-align: start;
+    }
+    .logo{
+        width: 300px;
+    }
+    .frist-div{
+        margin-right: 0px;
+    }
+    .second-div{
+        margin-left: 0px;
+    }
+    svg{
+        height: 50px;
+    }
+    .svg{
+        width: 30%;
+    }
+    h1,h3{
+        line-height: 2.4rem;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 700;
+
+    }
+    footer >div > div > p > span > img{
+        margin-right: 10px;
+    }
+
+}
